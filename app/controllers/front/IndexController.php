@@ -49,6 +49,10 @@ class IndexController extends AppController{
         $this->render('index.index', $tableauPourLaVue);
       
     }
+    public function fionaAction() {
+        echo 'Test Fiona';
+        $this->render('index.fiona', $tableauPourLaVue);
+    }
     /**
      * Juste une methode pour tester
      * d'afficher la liste des utilisateur sur l'accueil

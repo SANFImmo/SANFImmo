@@ -4,8 +4,9 @@
 namespace App\Controllers\Admin;
 
 use App\Controllers\Admin\AppController;
+use App\Models\User;
 
-class IndexController extends AppController{
+class UserController extends AppController{
 
     public function indexAction()
     {
@@ -28,7 +29,8 @@ class IndexController extends AppController{
     {
         $tabPosts = ['name' => 'undeundeu'];
         echo 'test';
-        $this->render('index.index', $tabPosts);
+       
+        $this->render('user.list');
     }
     protected function render($view, $tab = [])
     {

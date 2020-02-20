@@ -21,7 +21,7 @@ class IndexController extends AppController{
     public function detailsAction(){
 
         $user = new  User();
-        $user->setId(1);
+        $user->setId(2);
         $res = $user->getNom();
         var_dump($res);
 

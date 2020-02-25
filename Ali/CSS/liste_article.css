@@ -1,0 +1,38 @@
+
+h2{
+    color: #e78200;
+}
+
+h1{
+    border: 1px solid black;
+    background-color: #09335d;
+
+    color: #e78200;
+}
+
+.form{
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .test,
+    .test1{
+        width: 53%;
+        margin: auto;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    .test1{
+        width: 53%;
+        margin: auto;
+    }
+    .tri{
+        width: 53%;
+        margin: auto;
+    }
+    .chambre{
+        font-size: 89%;
+    }
+
+}

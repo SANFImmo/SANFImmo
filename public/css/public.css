@@ -1,0 +1,211 @@
+/**
+debut header
+ */
+.backGround{
+    background-color: #164879;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #e78200;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #e78200;
+}
+
+.searchBackground{
+    background-color: white;
+}
+
+.searchBackground:hover{
+    background-color: #e78200;
+}
+
+.decoFontColor:hover{
+    color: white;
+}
+.backGround a{
+}
+
+
+/* TAILLE TELEPHONE */
+@media (max-width: 575.98px) {
+    .responsive{
+        font-size: 2em !important;
+    }
+}
+
+
+/* TAILLE IPAD */
+@media (min-width: 576px) and (max-width: 768px) {
+
+}
+
+/* TAILLE ECRAN MOYEN */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* TAILLE ECRAN GRAND */
+
+@media (min-width: 992px) {
+    .sizeEnvelope{
+        font-size: 3em !important;
+    }
+}
+/**
+header fin
+ */
+
+
+/**
+debut menu
+ */
+.menu {
+    background-color: #09335d;
+}
+
+#menu div div a {
+    color: white;
+}
+
+#menu div div a:hover {
+    color: #e78200; !important;
+}
+
+.menu button {
+    background-color: white;
+}
+
+.menu button:hover {
+    background-color: #e78200;
+}
+/**
+fin menu
+ */
+/**
+debut corps index
+ */
+
+.offre h2{
+    color: #e78200;
+}
+
+.card-header-sm{
+    background-color: #09335d;
+    color: #e78200;
+}
+
+.card{
+    border: 1px solid  #164879;
+}
+/**
+fin corps index
+ */
+
+/**
+debut couleur de fond des formulaires
+ */
+
+.border {
+    background-color: #164879;
+}
+/**
+fin couleur de fond des formulaires
+ */
+
+
+/**
+debut liste Détails
+ */
+.listeDetail h2 {
+    color: #e78200;
+}
+
+.form h1 {
+    border: 1px solid black;
+    background-color: #09335d;
+
+    color: #e78200;
+}
+
+.form {
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .test,
+    .test1 {
+        width: 53%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .test1 {
+        width: 53%;
+        margin: auto;
+    }
+
+    .tri {
+        width: 53%;
+        margin: auto;
+    }
+
+    .chambre {
+        font-size: 89%;
+    }
+
+}
+
+/**
+fin liste Details
+ */
+
+/**
+debut annonce detail
+ */
+
+h3 {
+    text-align: center;
+    color: #164879;
+}
+
+/**
+ fin annonce detail
+ */
+
+
+/**
+ footer debut
+ */
+
+.footer{
+    border: 1px solid black;
+    background-color: #041e39;
+}
+
+footer a{
+    color: white;
+}@media screen and (min-width: 768px) and (max-width: 800px){
+
+    .part{
+        padding-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    footer .logo  {
+        display: none;
+    }
+    footer .orange {
+        height: 5px;
+        width: 100%;
+        background-color: #e78200;
+    }
+}
+/**
+footer fin
+ */

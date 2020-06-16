@@ -7,7 +7,17 @@ use App\Controllers\Admin\AppController;
 
 class IndexController extends AppController{
 
-    public function indexAction($name)
+
+    public function __construct()
+    {
+
+
+        parent::__construct();
+
+
+    }
+
+    public function indexAction()
     {
         $tabPosts = ['name' => 'undeundeu'];
         
@@ -20,4 +30,8 @@ class IndexController extends AppController{
        echo '<h1>' . $name . '<h1>';
          
     }
+
+
+
+
 }

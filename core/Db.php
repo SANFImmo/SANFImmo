@@ -9,6 +9,8 @@ class Db
     public $_pdo;
     public $_stmt;
     public $_lastInsertId;
+
+
     private function __construct() //Construit l'objet 
     {
         try {
@@ -18,11 +20,6 @@ class Db
             echo 'Connexion échouée : ' . $e->getMessage();
         }
     }
-
-
-
-
-
 
 
     public function update($table, $tab, $where)
@@ -80,9 +77,9 @@ class Db
 
     public function query($request, $tab=[])
     {
-
         $this->_stmt = $this->_pdo->prepare($request); //$this->_stmt = Je sélectionne l'attribu _stmt de la class qui possede l'objet pdo (qui lui retourne un pdo:statement d'ou l'attribut stmt) et qui prepare la requête.
         $this->_stmt->execute($tab); //il execute la requête préparé
+        //var_dump($this->_stmt->errorInfo());
         $this->_lastInsertId = $this->_pdo->lastInsertId();
         return $this; //il retourne la requête en résultat
 
@@ -90,13 +87,12 @@ class Db
 
 
     public function fetch(){
-
-
-
-
-      
+        return $this->_stmt->fetch();
     }
 
+    public function fetchAll(){
+        return $this->_stmt->fetchAll();
+    }
 
     
     public function insert($table, $tab)
@@ -128,12 +124,13 @@ class Db
             $insert = "SELECT $content FROM " . $tableName;
         } else{
             foreach ($where as $key => $value) {
-                $wherereq .= $key . "=" . $value;
+                $wherereq .= $key . "=" . $key;
             }
             $insert = "SELECT * FROM " . $tableName . " where " . $wherereq;
             
         }
-        $this->query($insert);
+        $this->query($insert,$where);
+        return $this;
     }
 
 

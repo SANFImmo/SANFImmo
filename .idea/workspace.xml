@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7328442a-f946-4e51-956e-ef5a24357f11" name="Default Changelist" comment="" />
+    <list default="true" id="7328442a-f946-4e51-956e-ef5a24357f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/front/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBD_Projet-Recap.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/espace/InfosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/espace/InfosController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/front/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/front/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/front/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/front/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/partial/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/partial/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/partial/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/espace/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/espace/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front/index/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front/partial/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front/partial/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front/partial/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front/partial/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Model.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -27,9 +61,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet_list" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,6 +100,10 @@
       <option name="presentableId" value="Default" />
       <updated>1581922286911</updated>
       <workItem from="1581922288154" duration="20730000" />
+      <workItem from="1582207500237" duration="2401000" />
+      <workItem from="1582528242444" duration="1238000" />
+      <workItem from="1583227090828" duration="68957000" />
+      <workItem from="1583737787240" duration="3946000" />
     </task>
     <servers />
   </component>
@@ -66,9 +111,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="415" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1582010082484">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="638" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583248591092">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="638" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1583248591092" />
+    <state x="704" y="261" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583401485241">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="704" y="261" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1583401485241" />
+    <state x="754" y="261" key="FileChooserDialogImpl" timestamp="1584005179041">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="754" y="261" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1584005179041" />
+    <state x="754" y="320" key="NewPhpClassDialog" timestamp="1583395815832">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="754" y="320" key="NewPhpClassDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1583395815832" />
+    <state x="484" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1583737801515">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="415" y="253" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1582010082484" />
+    <state x="484" y="297" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1583737801515" />
   </component>
 </project>

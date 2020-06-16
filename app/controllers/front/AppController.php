@@ -20,8 +20,9 @@ class AppController extends Controller
         $this->viewPath = PATH_VIEWS .   $this->appName;
         //Chacun de ses elements peut etre surchargé dans vos methodeAction
         $element['header'] = $this->buildHeader();
+        $element['menu'] = $this->buildMenu();
         $element['footer'] = $this->buildFooter();
-        $element['title'] = 'test titre';
+
 
         $this->addContentToView($element);
 
@@ -29,6 +30,11 @@ class AppController extends Controller
     }
 
     public function buildHeader()
+    {
+        return $this->renderView('partial.header');
+    }
+
+public function buildMenu()
     {
         return $this->renderView('partial.menu');
     }

@@ -14,11 +14,11 @@ class AppController extends Controller
         /**
          * Dans le constructeur on push des elements specifique à notre module
          */
-        $this->viewPath = PATH_VIEWS .   $this->appName;
+        $this->viewPath = PATH_VIEWS . $this->appName;
         //Chacun de ses elements peut etre surchargé dans vos methodeAction
         $element['header'] = $this->buildHeader();
-        $element['footer'] = $this->buildFooter();
-        $element['title'] = 'test titre';
+        $element['menu'] = $this->buildMenu();
+
 
         $this->addContentToView($element);
 
@@ -27,12 +27,12 @@ class AppController extends Controller
 
     public function buildHeader()
     {
-        return $this->renderView('partial.menu');
+        return $this->renderView('partial.header');
     }
 
-    public function buildFooter()
+    public function buildMenu()
     {
-        return $this->renderView('partial.footer');
+        return $this->renderView('partial.menu');
     }
 
 }

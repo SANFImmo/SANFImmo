@@ -36,8 +36,9 @@ class App
     {
 
         $this->url[0] = !empty($this->url[0]) ? $this->url[0] : $this->controller;
-         
-  
+
+
+
         if (file_exists('../app/controllers/' . $this->moduleName . '/' . ucfirst($this->url[0]) . 'Controller.php')) {
 
             $this->controller = $this->namespace . ucfirst($this->url[0]) . 'Controller';
@@ -50,7 +51,7 @@ class App
       
         $this->action = !empty($this->url[0]) ? $this->url[0] . 'Action' : $this->action . 'Action';
             
-        
+
         if (method_exists($this->controller, $this->action)) {
 
 
